@@ -36,9 +36,14 @@ a:hover {
 #bio .sect {
 	font-size: 38px;
 	letter-spacing: 1.5px;
+	margin-bottom: 50px;
 }
 
 #helvetica:hover {
 	font-family: "Helvetica Neue";
 	cursor: pointer;
+}
+
+#quote {
+	margin-top: 100px;
 }
