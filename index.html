@@ -3,7 +3,6 @@
 	<title>Sara Robinson</title>
 	 <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="main.css">
-	 <link rel="stylesheet" href="buttons/css/buttons.css">
 	 <script src="http://code.jquery.com/jquery-latest.min.js"
         type="text/javascript"></script>
 </head>
@@ -23,15 +22,25 @@
 	</div>
 	<div id="bio">
 		<p class="sect">Hi there, I'm Sara. I live in San Francisco where you can probably find me running, <a href="https://github.com/sararob/" target="_blank">coding</a>, making ice cream, or writing (maybe in that order).</p>
-		<p class="sect">I've been into technology <a href="young-sara.JPG" target="_blank">ever since I was young</a>, and I'm also a fan of white wine, <span id="helvetica">Helvetica</span>, freshly baked cookies, <span id="hp">Harry Potter</span>, and the Oxford comma.</p>
+
+		<p class="sect">I've been into technology <a href="young-sara.html" target="_blank">ever since I was young</a>, and I'm also a fan of white wine, <span id="helvetica">Helvetica</span>, <a href="chocolate_chip_cookies.pdf" target="_blank">freshly baked cookies</a>, <span id="hp">Harry Potter</span>, and the Oxford comma.</p>
+
 		<p class="sect">I'm part of the <a href="https://www.firebase.com/about.html" target="_blank">team</a> at <a href="https://www.firebase.com/" target="_blank">Firebase</a> where I help empower our developers to build great things. </p>
+
 		<p class="sect">Before SF, I lived in Nebraska, Chicago, <a href="http://sarascopenblogen.wordpress.com/" target="_blank">Copenhagen</a>, and Waltham, Massachusetts.</p>
+
 		<p id="quote">"It's an odd thing, but anyone who disappears is said to be seen in San Francisco." - Oscar Wilde</p>
 	</div>
+	<div id="harry">
+		<img src="harry.jpg" id="harry-pic"/>
+	</div>
 	<script>
-		// $('#hp').mouseenter(function (e) {
-		// 	$('#bio').css('display', 'none');
-		// });
+		$('#hp').click(function (e) {
+			$('#harry').css('visibility', 'visible');
+		});
+		$('#harry-pic').click(function (e) {
+			$("#harry").css('visibility', 'hidden');
+		})
 	</script>
 </body>
 </html>

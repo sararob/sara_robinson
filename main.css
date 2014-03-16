@@ -54,7 +54,7 @@ a:hover {
 	margin-left: 107px;
 	line-height: 1;
 	display: inline-block;
-	width: 650px;
+	width: 745px;
 }
 
 #bio .sect {
@@ -63,13 +63,44 @@ a:hover {
 	margin-bottom: 50px;
 }
 
-#helvetica:hover {
-	font-family: "Helvetica Neue";
-	cursor: pointer;
+#helvetica {
+	font-family: "helvetica";
+	letter-spacing: normal;
 }
 
 #quote {
 	margin-top: 100px;
 	letter-spacing: 1px;
 	color: #57BE85;
+}
+
+
+#young-sara {
+	border-radius: 5px;
+	margin: 20px 0px 0px 20px;
+}
+
+#hp {
+	cursor: pointer;
+}
+
+#harry {
+	visibility: hidden;
+	margin-top: -1080px;
+	width: 700px;
+}
+
+#harry-pic {
+	border-radius: 10px;
+	margin-left: 240px;
+}
+
+.caption {
+	margin-left: 20px;
+	font-size: 20px;
+	width: 300px;
+}
+
+.caption a {
+	text-decoration: none;
 }
